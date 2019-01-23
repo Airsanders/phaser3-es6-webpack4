@@ -1,0 +1,42 @@
+{
+  "name": "phaser3-es6-webpack4",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Webpack 4 boilerplate, with Phaser3, Babel, Stylus and Happypack",
+  "author": "Air Sanders",
+  "scripts": {
+    "dev": "set NODE_ENV=development&& webpack-dev-server --progress --config config/webpack.dev.config.js",
+    "build": "set NODE_ENV=production&& webpack --progress --config config/webpack.prod.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/runtime": "^7.2.0",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^1.0.0",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^2.1.0",
+    "expose-loader": "^0.7.5",
+    "happypack": "^5.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "optimize-css-assets-webpack-plugin": "^4.0.2",
+    "postcss-import": "^11.1.0",
+    "postcss-loader": "^2.1.5",
+    "postcss-url": "^7.3.2",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.23.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "phaser": "^3.15.1"
+  }
+}
