@@ -1,6 +1,6 @@
 # phaser3-template
 
-#### Basic Phaser3 Project, with Webpack4, Babel, Stylus and HappyPack.
+#### Basic Phaser3 Template, with Webpack4, Babel, Stylus and HappyPack.
 
 
 
