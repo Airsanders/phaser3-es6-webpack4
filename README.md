@@ -1,6 +1,6 @@
-# phaser3-es6-webpack4-template
+# phaser3-template
 
-#### Basic Phaser3 Project using Webpack4, with Babel, Stylus and HappyPack.
+#### Basic Phaser3 Project, with Webpack4, Babel, Stylus and HappyPack.
 
 
 
@@ -54,7 +54,7 @@ It will open your browser with localhost:9000 automatically.
 
 If everything is fine, you will see a phaser3 official example running.
 
-official living url: http://labs.phaser.io/view.html?src=src/games/firstgame/part10.js
+official demo url: http://labs.phaser.io/view.html?src=src/games/firstgame/part10.js
 
 
 
