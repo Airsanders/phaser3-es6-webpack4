@@ -27,7 +27,7 @@ let prodConfig = {
     new HtmlWebpackPlugin({
       title: 'Phaser3 DEMO',
       filename: 'index.html',
-      meta: {viewport: 'width=device-width, initial-scale=1, minimum-scale=1 ,maximum-scale=1 ,user-scalable=no shrink-to-fit=no'},
+      meta: {viewport: 'width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no'},
       template: './src/index.html',
       inject: true,
       chunks: ['vendors', 'app'],
