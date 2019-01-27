@@ -1,5 +1,5 @@
 {
-  "name": "phaser3-es6-webpack4",
+  "name": "phaser3-template",
   "version": "1.0.0",
   "license": "MIT",
   "description": "Webpack 4 boilerplate, with Phaser3, Babel, Stylus and Happypack",
